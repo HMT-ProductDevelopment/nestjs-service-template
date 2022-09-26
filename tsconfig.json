@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "resolveJsonModule": true,
+    "paths": {
+      "@constants/*": [
+        "src/constants/*"
+      ],
+      "@core/*": [
+        "src/core/*"
+      ],
+      "@entities/*": [
+        "src/modules/shared/entities/*"
+      ],
+      "@enum/*": [
+        "src/enum/*"
+      ],
+      "@helpers/*": [
+        "src/helpers/*"
+      ],
+      "@type/*": [
+        "src/types/*"
+      ],
+      "@shared/*": [
+        "src/modules/shared/*"
+      ],
+      "@modules/*": [
+        "src/modules/*"
+      ],
+      "~/*": [
+        "src/*"
+      ],
+    }
+  }
+}

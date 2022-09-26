@@ -1,0 +1,31 @@
+{
+    "authen": {
+        "authBrandUri": "https://gateway.dizim.ai/{__tenant__=}/{__domain__=}/api/v1/accounts/verify-token",
+        "authPlatformUri": "api/v1/accounts/verify-token"
+    },
+    "mongodbUrl": "mongodb://localhost:27017/dizim_db",
+    "onepay": {
+        "uri": "https://mtf.onepay.vn/onecomm-pay/vpc.op",
+        "vpc_Locale": "en",
+        "vpc_Version": "2",
+        "vpc_Command": "pay",
+        "vpc_Merchant": "ONEPAY",
+        "vpc_AccessCode": "D67342C2",
+        "vpc_MerchTxnRef": "uneque_merchTxnRef_per_txn",
+        "vpc_OrderInfo": "order_information",
+        "vpc_Amount": "1000",
+        "vpc_Currency": "VND",
+        "vpc_ReturnURL": "https://webhook.site/f296836f-9601-4fa0-a8ca-1cd2ad3db8ed",
+        "vpc_SHIP_Street01": "",
+        "vpc_SHIP_Provice": "",
+        "vpc_SHIP_City": "",
+        "vpc_SHIP_Country": "",
+        "vpc_Customer_Phone": "",
+        "vpc_Customer_Email": "",
+        "vpc_Customer_Id": "",
+        "vpc_TicketNo": "",
+        "AgainLink": "http://localhost:3000/subcription/123",
+        "Title": "Payment order 250k",
+        "vpc_SecureHash": "A3EFDFABA8653DF2342E8DAC29B51AF0"
+    }
+}
